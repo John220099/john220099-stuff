@@ -18,7 +18,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: "john220099"
   cancel-in-progress: false
 
 jobs:
@@ -38,6 +38,6 @@ jobs:
         with:
           # Upload entire repository
           path: 'Index.html'
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: john220099
+        id: john220099
         uses: actions/deploy-pages@v4
