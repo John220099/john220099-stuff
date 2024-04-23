@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: john220099-github
-      url: ${{ john220099.github.io }}
+      url: ${{ john.github.io }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
