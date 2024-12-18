@@ -1,21 +1,21 @@
-/*removed duplicate code and unused code.*/
 body {
+    /*text*/
     font-family: 'Helvetica Neue, Arial, sans-serif';
     line-height: 1.6;
-    background-color: #474747;
+    background-color: black;
     color: #999999;
     padding: 20px;
     text-align: center;
 }
 nav {
-    background-color: #474747;
+    /*navigation color*/
+    background-color: black;
     color: #c2c2c2;
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 20px;
 }
 nav a {
+    /*navigation stuff*/
     color: #96d35f;
     padding: 10px 15px;
     text-decoration: none;
@@ -24,13 +24,16 @@ nav a {
     transition: color 0.3s;
 }
 p {
+    /*text color*/
     color: #96d35f
 }    
 a {
+    /*link color*/
     color: #96d35f
 }    
 footer {
-    background-color: #5c5c5c;
+    /*Footer color*/
+    background-color: black;
     color: #b51a00;
     text-align: center;
     padding: 10px;
@@ -38,5 +41,11 @@ footer {
     border-top: 1px solid #5c5c5c;
 }
 img {
+    /*image border*/
     border: 4px solid #3d3c4c;
-} 
+}
+section {
+    /*section color*/
+    border: 1px solid #5c5c5c;
+	background: black;
+}
