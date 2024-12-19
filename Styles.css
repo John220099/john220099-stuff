@@ -2,14 +2,14 @@ body {
     /*text*/
     font-family: 'Helvetica Neue, Arial, sans-serif';
     line-height: 1.6;
-    background-color: #5c5c5c ;
+    background-color: #5c5c5c;
     color: #999999;
     padding: 20px;
     text-align: center;
 }
 nav {
     /*navigation color*/
-    background-color: #5c5c5c ;
+    background-color: #5c5c5c;
     color: #c2c2c2;
     padding: 10px;
     text-align: center;
@@ -25,11 +25,11 @@ nav a {
 }
 p {
     /*text color*/
-    color: #96d35f
+    color: #96d35f;
 }    
 a {
     /*link color*/
-    color: #96d35f
+    color: #96d35f;
 }    
 footer {
     /*Footer color*/
